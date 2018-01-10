@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 int a;
@@ -9,5 +10,6 @@ else if(a==0)
   printf("Zero");
 else
 printf("Negative");
+getch();
 return 0;
 }
